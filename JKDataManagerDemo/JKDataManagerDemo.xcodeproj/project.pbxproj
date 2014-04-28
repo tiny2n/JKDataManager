@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1671EAF190DF34E001B7476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1671EAE190DF34E001B7476 /* Foundation.framework */; };
+		F1671EB1190DF34E001B7476 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1671EB0190DF34E001B7476 /* CoreGraphics.framework */; };
+		F1671EB3190DF34E001B7476 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1671EB2190DF34E001B7476 /* UIKit.framework */; };
+		F1671EB9190DF34E001B7476 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1671EB7190DF34E001B7476 /* InfoPlist.strings */; };
+		F1671EBB190DF34E001B7476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1671EBA190DF34E001B7476 /* main.m */; };
+		F1671EBF190DF34E001B7476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1671EBE190DF34E001B7476 /* AppDelegate.m */; };
+		F1671EC2190DF34E001B7476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1671EC0190DF34E001B7476 /* Main.storyboard */; };
+		F1671EC5190DF34E001B7476 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1671EC4190DF34E001B7476 /* ViewController.m */; };
+		F1671EC7190DF34E001B7476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1671EC6190DF34E001B7476 /* Images.xcassets */; };
+		F1671ECE190DF34E001B7476 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1671ECD190DF34E001B7476 /* XCTest.framework */; };
+		F1671ECF190DF34E001B7476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1671EAE190DF34E001B7476 /* Foundation.framework */; };
+		F1671ED0190DF34E001B7476 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1671EB2190DF34E001B7476 /* UIKit.framework */; };
+		F1671ED8190DF34E001B7476 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1671ED6190DF34E001B7476 /* InfoPlist.strings */; };
+		F1671EDA190DF34E001B7476 /* JKDataManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1671ED9190DF34E001B7476 /* JKDataManagerDemoTests.m */; };
+		F1671EE9190DF8E4001B7476 /* JKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1671EE8190DF8E4001B7476 /* JKDataManager.m */; };
+		F1671EEA190DF8E4001B7476 /* JKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1671EE8190DF8E4001B7476 /* JKDataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1671ED1190DF34E001B7476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1671EA3190DF34E001B7476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1671EAA190DF34E001B7476;
+			remoteInfo = JKDataManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1671EAB190DF34E001B7476 /* JKDataManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKDataManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1671EAE190DF34E001B7476 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1671EB0190DF34E001B7476 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1671EB2190DF34E001B7476 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1671EB6190DF34E001B7476 /* JKDataManagerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKDataManagerDemo-Info.plist"; sourceTree = "<group>"; };
+		F1671EB8190DF34E001B7476 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1671EBA190DF34E001B7476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1671EBC190DF34E001B7476 /* JKDataManagerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKDataManagerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F1671EBD190DF34E001B7476 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1671EBE190DF34E001B7476 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1671EC1190DF34E001B7476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1671EC3190DF34E001B7476 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1671EC4190DF34E001B7476 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1671EC6190DF34E001B7476 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1671ECC190DF34E001B7476 /* JKDataManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKDataManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1671ECD190DF34E001B7476 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F1671ED5190DF34E001B7476 /* JKDataManagerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKDataManagerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		F1671ED7190DF34E001B7476 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1671ED9190DF34E001B7476 /* JKDataManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKDataManagerDemoTests.m; sourceTree = "<group>"; };
+		F1671EE7190DF8E4001B7476 /* JKDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDataManager.h; sourceTree = "<group>"; };
+		F1671EE8190DF8E4001B7476 /* JKDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDataManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1671EA8190DF34E001B7476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1671EB1190DF34E001B7476 /* CoreGraphics.framework in Frameworks */,
+				F1671EB3190DF34E001B7476 /* UIKit.framework in Frameworks */,
+				F1671EAF190DF34E001B7476 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1671EC9190DF34E001B7476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1671ECE190DF34E001B7476 /* XCTest.framework in Frameworks */,
+				F1671ED0190DF34E001B7476 /* UIKit.framework in Frameworks */,
+				F1671ECF190DF34E001B7476 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1671EA2190DF34E001B7476 = {
+			isa = PBXGroup;
+			children = (
+				F1671EE6190DF8E4001B7476 /* JKDataManager */,
+				F1671EB4190DF34E001B7476 /* JKDataManagerDemo */,
+				F1671ED3190DF34E001B7476 /* JKDataManagerDemoTests */,
+				F1671EAD190DF34E001B7476 /* Frameworks */,
+				F1671EAC190DF34E001B7476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1671EAC190DF34E001B7476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1671EAB190DF34E001B7476 /* JKDataManagerDemo.app */,
+				F1671ECC190DF34E001B7476 /* JKDataManagerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1671EAD190DF34E001B7476 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1671EAE190DF34E001B7476 /* Foundation.framework */,
+				F1671EB0190DF34E001B7476 /* CoreGraphics.framework */,
+				F1671EB2190DF34E001B7476 /* UIKit.framework */,
+				F1671ECD190DF34E001B7476 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1671EB4190DF34E001B7476 /* JKDataManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1671EBD190DF34E001B7476 /* AppDelegate.h */,
+				F1671EBE190DF34E001B7476 /* AppDelegate.m */,
+				F1671EC0190DF34E001B7476 /* Main.storyboard */,
+				F1671EC3190DF34E001B7476 /* ViewController.h */,
+				F1671EC4190DF34E001B7476 /* ViewController.m */,
+				F1671EC6190DF34E001B7476 /* Images.xcassets */,
+				F1671EB5190DF34E001B7476 /* Supporting Files */,
+			);
+			path = JKDataManagerDemo;
+			sourceTree = "<group>";
+		};
+		F1671EB5190DF34E001B7476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1671EB6190DF34E001B7476 /* JKDataManagerDemo-Info.plist */,
+				F1671EB7190DF34E001B7476 /* InfoPlist.strings */,
+				F1671EBA190DF34E001B7476 /* main.m */,
+				F1671EBC190DF34E001B7476 /* JKDataManagerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1671ED3190DF34E001B7476 /* JKDataManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1671ED9190DF34E001B7476 /* JKDataManagerDemoTests.m */,
+				F1671ED4190DF34E001B7476 /* Supporting Files */,
+			);
+			path = JKDataManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		F1671ED4190DF34E001B7476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1671ED5190DF34E001B7476 /* JKDataManagerDemoTests-Info.plist */,
+				F1671ED6190DF34E001B7476 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1671EE6190DF8E4001B7476 /* JKDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				F1671EE7190DF8E4001B7476 /* JKDataManager.h */,
+				F1671EE8190DF8E4001B7476 /* JKDataManager.m */,
+			);
+			name = JKDataManager;
+			path = JKDataManagerDemo/JKDataManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1671EAA190DF34E001B7476 /* JKDataManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1671EDD190DF34E001B7476 /* Build configuration list for PBXNativeTarget "JKDataManagerDemo" */;
+			buildPhases = (
+				F1671EA7190DF34E001B7476 /* Sources */,
+				F1671EA8190DF34E001B7476 /* Frameworks */,
+				F1671EA9190DF34E001B7476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKDataManagerDemo;
+			productName = JKDataManagerDemo;
+			productReference = F1671EAB190DF34E001B7476 /* JKDataManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1671ECB190DF34E001B7476 /* JKDataManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1671EE0190DF34E001B7476 /* Build configuration list for PBXNativeTarget "JKDataManagerDemoTests" */;
+			buildPhases = (
+				F1671EC8190DF34E001B7476 /* Sources */,
+				F1671EC9190DF34E001B7476 /* Frameworks */,
+				F1671ECA190DF34E001B7476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1671ED2190DF34E001B7476 /* PBXTargetDependency */,
+			);
+			name = JKDataManagerDemoTests;
+			productName = JKDataManagerDemoTests;
+			productReference = F1671ECC190DF34E001B7476 /* JKDataManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1671EA3190DF34E001B7476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "JoongKwan Choi";
+				TargetAttributes = {
+					F1671ECB190DF34E001B7476 = {
+						TestTargetID = F1671EAA190DF34E001B7476;
+					};
+				};
+			};
+			buildConfigurationList = F1671EA6190DF34E001B7476 /* Build configuration list for PBXProject "JKDataManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1671EA2190DF34E001B7476;
+			productRefGroup = F1671EAC190DF34E001B7476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1671EAA190DF34E001B7476 /* JKDataManagerDemo */,
+				F1671ECB190DF34E001B7476 /* JKDataManagerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1671EA9190DF34E001B7476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1671EC7190DF34E001B7476 /* Images.xcassets in Resources */,
+				F1671EB9190DF34E001B7476 /* InfoPlist.strings in Resources */,
+				F1671EC2190DF34E001B7476 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1671ECA190DF34E001B7476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1671ED8190DF34E001B7476 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1671EA7190DF34E001B7476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1671EE9190DF8E4001B7476 /* JKDataManager.m in Sources */,
+				F1671EC5190DF34E001B7476 /* ViewController.m in Sources */,
+				F1671EBF190DF34E001B7476 /* AppDelegate.m in Sources */,
+				F1671EBB190DF34E001B7476 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1671EC8190DF34E001B7476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1671EEA190DF8E4001B7476 /* JKDataManager.m in Sources */,
+				F1671EDA190DF34E001B7476 /* JKDataManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1671ED2190DF34E001B7476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1671EAA190DF34E001B7476 /* JKDataManagerDemo */;
+			targetProxy = F1671ED1190DF34E001B7476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1671EB7190DF34E001B7476 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1671EB8190DF34E001B7476 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1671EC0190DF34E001B7476 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1671EC1190DF34E001B7476 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1671ED6190DF34E001B7476 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1671ED7190DF34E001B7476 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1671EDB190DF34E001B7476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1671EDC190DF34E001B7476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1671EDE190DF34E001B7476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKDataManagerDemo/JKDataManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "JKDataManagerDemo/JKDataManagerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1671EDF190DF34E001B7476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKDataManagerDemo/JKDataManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "JKDataManagerDemo/JKDataManagerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F1671EE1190DF34E001B7476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKDataManagerDemo.app/JKDataManagerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKDataManagerDemo/JKDataManagerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JKDataManagerDemoTests/JKDataManagerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F1671EE2190DF34E001B7476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKDataManagerDemo.app/JKDataManagerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKDataManagerDemo/JKDataManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "JKDataManagerDemoTests/JKDataManagerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1671EA6190DF34E001B7476 /* Build configuration list for PBXProject "JKDataManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1671EDB190DF34E001B7476 /* Debug */,
+				F1671EDC190DF34E001B7476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1671EDD190DF34E001B7476 /* Build configuration list for PBXNativeTarget "JKDataManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1671EDE190DF34E001B7476 /* Debug */,
+				F1671EDF190DF34E001B7476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1671EE0190DF34E001B7476 /* Build configuration list for PBXNativeTarget "JKDataManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1671EE1190DF34E001B7476 /* Debug */,
+				F1671EE2190DF34E001B7476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1671EA3190DF34E001B7476 /* Project object */;
+}

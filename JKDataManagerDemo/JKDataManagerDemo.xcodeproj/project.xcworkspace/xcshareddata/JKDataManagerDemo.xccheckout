@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9AE07D43-3852-43CA-999D-82111371E12F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JKDataManagerDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E15388D5-9D12-42D7-9A6C-90BBB554DA38</key>
+		<string>https://github.com/tiny2n/JKDataManager.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JKDataManagerDemo/JKDataManagerDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E15388D5-9D12-42D7-9A6C-90BBB554DA38</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tiny2n/JKDataManager.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E15388D5-9D12-42D7-9A6C-90BBB554DA38</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E15388D5-9D12-42D7-9A6C-90BBB554DA38</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JKDataManager</string>
+		</dict>
+	</array>
+</dict>
+</plist>
