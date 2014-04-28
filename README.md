@@ -44,7 +44,8 @@ NSLog(@">>> string value < %d >", valInt);
 
 License
 -------------------------------------------------------
-Copyright (c) 2011 JoongKwan Choi joongkwan.choi@gmail.com
+Copyright (c) 2011 JoongKwan Choi  joongkwan.choi@gmail.com
+
 JKLib
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
