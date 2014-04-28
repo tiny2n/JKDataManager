@@ -6,7 +6,7 @@ Data Manager using NSUserDefaults
 ### Features
 
 ### Installation
-Add the files to your project manually by dragging the NYSegmentedControl directory into your Xcode project.
+Add the files to your project manually by dragging the JKDataManager directory into your Xcode project.
 
 ### Usage
 
